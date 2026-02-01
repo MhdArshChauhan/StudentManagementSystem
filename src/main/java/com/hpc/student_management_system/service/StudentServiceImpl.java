@@ -87,5 +87,6 @@ public class StudentServiceImpl implements StudentService {
 		student.setUpdatedAt(LocalDateTime.now());
 
 		return studentRepository.save(student);
+		
 	}
 }
